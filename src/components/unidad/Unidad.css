@@ -1,0 +1,190 @@
+.unidad_contenedor {
+  display: flex;
+  /* background-color: red; */
+  width: 90%;
+  height: 450px;
+  margin-top: 15px;
+}
+
+.unidad_caja {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.unidad_img {
+  width: 50%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 15px;
+
+}
+
+.unidad_ofertas {
+  position: absolute;
+  width: 300px;
+  top: -50px;
+  left: -5%;
+}
+
+.unidad_informacion {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: white; */
+  padding: 10px 15px 10px 15px;
+  background-color: rgba(191, 250, 135, 0.247);
+  border-radius: 15px;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  button {
+    margin: auto;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.09s ease-in-out;
+  }
+
+  button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+
+}
+
+.unidad_precio {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+
+  span {
+    color: red;
+  }
+}
+
+@media (max-width:480px) {
+  .unidad_contenedor {
+    display: flex;
+    width: 95%;
+    height: auto;
+  }
+
+  .unidad_caja {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .unidad_img {
+    width: 90%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 15px;
+
+  }
+
+  .unidad_ofertas {
+    position: absolute;
+    width: 300px;
+    top: -50px;
+    left: -5%;
+  }
+
+  .unidad_informacion {
+    margin-top: 5px;
+    width: 98%;
+    height: 100%;
+    
+
+    h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      text-transform: uppercase;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h4 {
+      text-align: center;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+      margin-bottom: 8px;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    button {
+      margin: auto;
+      padding: 7px;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border: none;
+      width: 150px;
+      border-radius: 10px;
+      background-color: lightgrey;
+      text-transform: uppercase;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      transition: 0.09s ease-in-out;
+    }
+
+    button:hover {
+      background-color: green;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+
+  }
+
+  .unidad_precio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+    span {
+      color: red;
+    }
+  }
+}
