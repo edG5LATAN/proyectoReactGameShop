@@ -1,16 +1,30 @@
-# React + Vite
+## Proyecto Gamer Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-Proyecto web creado con react de una pagina sobre una tienda online de gaming  llamada GAMERSHOP creada en su totalidad con react. www.EDTecnology.com.
 
-Currently, two official plugins are available:
+![Logo](https://i.pinimg.com/736x/9e/5b/85/9e5b851f7e45c917d9beda22efd35106.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Documentation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+para la elaboracion del proyecto usamos 
 
-## Expanding the ESLint configuration
+[React](https://es.react.dev/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Vite](https://vite.dev/)
+
+[Bootstrap](https://getbootstrap.com/)
+
+[VisualStudioCode](https://code.visualstudio.com/)
+## version
+
+Version 1.0.1
+
+## Authors
+
+- [Linkedin](https://www.linkedin.com/in/edwin-castro-13a763272/)
+
+
+## 🔗 Links
+[![despliefue en VERCEL](https://img.shields.io/badge/Portafolio-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://proyecto-react-game-shop.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=gold)](https://www.linkedin.com/in/edwin-castro-13a763272/)
